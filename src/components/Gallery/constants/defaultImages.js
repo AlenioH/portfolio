@@ -1,4 +1,4 @@
-import full01 from '../../../assets/images/fulls/01.jpg'
+import demo1 from '../random-color-generator'
 import full02 from '../../../assets/images/fulls/02.jpg'
 import full03 from '../../../assets/images/fulls/03.jpg'
 import full04 from '../../../assets/images/fulls/04.jpg'
@@ -14,7 +14,7 @@ import thumb06 from '../../../assets/images/thumbs/06.jpg'
 export const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: full01,
+    source: demo1,
     thumbnail: thumb01,
     caption: 'Project 1',
     description: 'This is my first project, which is turning out awesome.',

@@ -12,7 +12,7 @@ const Header = () => (
       <h1>
         <strong>I am Alena Hasslacher</strong>,
         <br />
-        an aspiring web developer
+        passionate web developer
         <br />
         from Vienna, Austria.
       </h1>
