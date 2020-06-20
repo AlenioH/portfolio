@@ -6,15 +6,12 @@ import avatar from '../../avatar.jpg'
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
-        <img src={avatar} alt="" />
+      <a href="https://github.com/AlenioH/" className="image avatar">
+        <img src={avatar} alt="Alena Hasslacher" />
       </a>
       <h1>
-        <strong>I am Alena Hasslacher</strong>,
-        <br />
-        passionate web developer
-        <br />
-        from Vienna, Austria.
+        <strong>I am Alena Hasslacher</strong>, passionate web developer from
+        Vienna, Austria.
       </h1>
     </div>
     <Footer />

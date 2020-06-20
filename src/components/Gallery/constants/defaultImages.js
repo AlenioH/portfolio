@@ -1,57 +1,57 @@
-import demo1 from '../random-color-generator'
-import full02 from '../../../assets/images/fulls/02.jpg'
-import full03 from '../../../assets/images/fulls/03.jpg'
-import full04 from '../../../assets/images/fulls/04.jpg'
-import full05 from '../../../assets/images/fulls/05.jpg'
-import full06 from '../../../assets/images/fulls/06.jpg'
-import thumb02 from '../../../assets/images/thumbs/02.jpg'
-import thumb01 from '../../../assets/images/thumbs/01.jpg'
-import thumb03 from '../../../assets/images/thumbs/03.jpg'
-import thumb04 from '../../../assets/images/thumbs/04.jpg'
-import thumb05 from '../../../assets/images/thumbs/05.jpg'
-import thumb06 from '../../../assets/images/thumbs/06.jpg'
+import thumb01 from '../../../assets/images/thumbs/demo1.png'
+import thumb02 from '../../../assets/images/thumbs/demo2.png'
+import thumb03 from '../../../assets/images/thumbs/demo3.png'
+import thumb04 from '../../../assets/images/thumbs/demo4.png'
+import thumb05 from '../../../assets/images/thumbs/demo5.png'
+import thumb06 from '../../../assets/images/thumbs/demo6.png'
 
 export const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: demo1,
+    source: 'https://github.com/AlenioH/random-color-generator',
     thumbnail: thumb01,
-    caption: 'Project 1',
-    description: 'This is my first project, which is turning out awesome.',
+    caption: 'Node.js random color generator',
+    description:
+      'This is a CLI application which generates either a random color, or the color typed in',
   },
   {
     id: '2',
-    source: full02,
+    source: 'https://github.com/AlenioH/meme-scraper',
     thumbnail: thumb02,
-    caption: 'Project 2',
-    description: 'The second project is a cooperation with Google.',
+    caption: 'Meme scraper',
+    description:
+      'When run in command line, the application creates a new directory named "memes" and downloads the first 10 images under names from 0 to 9.',
   },
   {
     id: '3',
-    source: full03,
+    source: 'https://github.com/AlenioH/react-meme-generator',
     thumbnail: thumb03,
-    caption: 'Project 3',
-    description: 'This project is a cooperation with FB.',
+    caption: 'React meme generator app',
+    description:
+      'This app allows for users to generate and download memes using the memegen.link website API.',
   },
   {
     id: '4',
-    source: full04,
+    source: 'https://github.com/AlenioH/Sentiment-analysis',
     thumbnail: thumb04,
-    caption: 'Project 4',
-    description: 'This here does everything.',
+    caption: 'Sentiment analysis CLI',
+    description:
+      'A Node.js sentiment analysis program that uses the demo API on apidemo.theysay.io to analyze text that you pass in on the command line as an additional argument and print out the "mood" of the text.',
   },
   {
     id: '5',
-    source: full05,
+    source: 'https://github.com/AlenioH/next.js-ecommerce-store',
     thumbnail: thumb05,
-    caption: 'Project 5',
-    description: 'This one is a fully functional online casino.',
+    caption: 'Next.js ecommerce store',
+    description:
+      'This one is an (almost) fully functional online shop, including a PostgresQL database.',
   },
   {
     id: '6',
-    source: full06,
+    source: 'https://github.com/AlenioH/react-todo-list',
     thumbnail: thumb06,
-    caption: 'Project 6',
-    description: 'And here is a cat-human online-translator.',
+    caption: 'React Todo App',
+    description:
+      'This React app allows to enter todos, toggle, delete them, and filter to show only active or only completed ones.',
   },
 ]

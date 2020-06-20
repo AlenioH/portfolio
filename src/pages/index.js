@@ -19,23 +19,34 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              Powered by coffee
               <br />
-              magna sed accumsan arcu neque.
+              and kittens.
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            I originally come from Russia, but have been living in Vienna,
+            Austria since 2015. Having worked in Human Resources in a bank in
+            Moscow, I pursued my degree in Linguistics at the University of
+            Vienna and later worked for Austrian Airlines. I've been always
+            curious about web-development, but never was brave enough to try. It
+            all changed in May 2020 when I joined the{' '}
+            <a href="https://upleveled.io/">Upleveled Coding Bootcamp</a>, where
+            I learned all about{' '}
+            <em>
+              HTML, CSS, JavaScript, React.js, Next.js, PostgresQL, GraphQL,
+              Node.js,
+            </em>
+            and many other technologies. And now I'm the one doing the Internet,
+            too!
+            <br></br>I am passionate about <em>coding</em>, books, cats, and
+            good (vegan) food.
+            <br></br> My motto is: 'It's okay to eat a whole pizza by yourself'.
           </p>
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Learn More
+              <a href="#two" className="button">
+                Check out my work
               </a>
             </li>
           </ul>
@@ -48,7 +59,7 @@ const HomeIndex = () => {
 
           <ul className="actions">
             <li>
-              <a href="#" className="button">
+              <a href="https://github.com/AlenioH/" className="button">
                 Full Portfolio
               </a>
             </li>
@@ -109,7 +120,9 @@ const HomeIndex = () => {
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">alena.hasslacher@gmail.com</a>
+                  <a href="mailto: alena.hasslacher@gmail.com">
+                    alena.hasslacher@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
