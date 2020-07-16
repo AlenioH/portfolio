@@ -5,8 +5,8 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Alena Hasslacher, fullstack web-developer'
+  const siteDescription = 'Portfolio Alena Hasslacher fullstack web-developer'
 
   return (
     <Layout>
@@ -39,6 +39,8 @@ const HomeIndex = () => {
             </em>
             and many other technologies. And now I'm the one doing the Internet,
             too!
+            <br></br> My finished projects you can check out down below, at the
+            moment I am working on an eco-challenge web-app, so stay tuned.
             <br></br>I am passionate about <em>coding</em>, books, cats, and
             good (vegan) food.
             <br></br> My motto is: 'It's okay to eat a whole pizza by yourself'.
@@ -69,11 +71,11 @@ const HomeIndex = () => {
         <section id="three">
           <h2>Get in Touch</h2>
           <p>
-            If you would like to talk to me, fill out the contact form or give
+            If you would like to get in touch with me, send me an email or give
             me a call.
           </p>
           <div className="row">
-            <div className="8u 12u$(small)">
+            {/* <div className="8u 12u$(small)">
               <form method="post" action="#">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
@@ -107,7 +109,7 @@ const HomeIndex = () => {
                   </li>
                 </ul>
               </form>
-            </div>
+            </div> */}
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>

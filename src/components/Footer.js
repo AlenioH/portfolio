@@ -14,7 +14,14 @@ const Footer = () => (
             <span className="label">Github</span>
           </a>
         </li>
-
+        <li>
+          <a
+            href="https://www.linkedin.com/in/alena-hasslacher/"
+            className="icon fa-linkedin"
+          >
+            <span className="label">LinkedIn</span>
+          </a>
+        </li>
         <li>
           <a
             href="mailto:alena.hasslacher@gmail.com"
