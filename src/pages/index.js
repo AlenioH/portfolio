@@ -40,7 +40,8 @@ const HomeIndex = () => {
             and many other technologies. And now I'm the one doing the Internet,
             too!
             <br></br> My finished projects you can check out down below, at the
-            moment I am working on an eco-challenge web-app, so stay tuned.
+            moment I am working on a responsive web-app for a Viennese startup
+            <a href="https://www.womentor.at"> WoMentor</a>, so stay tuned.
             <br></br>I am passionate about <em>coding</em>, books, cats, and
             good (vegan) food.
             <br></br> My motto is: 'It's okay to eat a whole pizza by yourself'.

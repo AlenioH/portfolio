@@ -8,11 +8,11 @@ import thumb06 from '../../../assets/images/thumbs/demo6.png'
 export const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: 'https://github.com/AlenioH/random-color-generator',
+    source: 'https://github.com/AlenioH/next.js-ecommerce-store',
     thumbnail: thumb01,
-    caption: 'Node.js random color generator',
+    caption: 'Next.js e-commerce shop',
     description:
-      'This is a CLI application which generates either a random color, or the color typed in',
+      'An (almost) fully functional online shop, including a PostgresQL database.',
   },
   {
     id: '2',
@@ -24,11 +24,11 @@ export const DEFAULT_IMAGES = [
   },
   {
     id: '3',
-    source: 'https://github.com/AlenioH/react-meme-generator',
+    source: 'https://github.com/AlenioH/eco-challenge-app',
     thumbnail: thumb03,
-    caption: 'React meme generator app',
+    caption: 'Next.js eco-challenge app',
     description:
-      'This app allows for users to generate and download memes using the memegen.link website API.',
+      'Responsive web-app featuring signup/login possibility, PostgresQL database, API routes, and email notifications.',
   },
   {
     id: '4',
@@ -40,11 +40,11 @@ export const DEFAULT_IMAGES = [
   },
   {
     id: '5',
-    source: 'https://github.com/AlenioH/next.js-ecommerce-store',
+    source: 'https://github.com/AlenioH/random-color-generator',
     thumbnail: thumb05,
-    caption: 'Next.js ecommerce store',
+    caption: 'Node.js random color generator',
     description:
-      'This one is an (almost) fully functional online shop, including a PostgresQL database.',
+      'This is a CLI application which generates either a random color, or the color typed in',
   },
   {
     id: '6',
